@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apples and Oranges</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+
+
 </head>
 <body>
     <div class="header"> 
-        <div class="left"> Apples&Oranges</div>
+        <div class="left"> <span class="apples">Apples</span><span class="and">&</span><span class="oranges">Oranges</span></div>
         <div class="right">
-            <ul>
-                <li><button class="sign-in"> Sign in </button></li>
+            <ul class="right">
+                <li><button class="sign-in"> Sign in > </button></li>
                 <li><button class="green-button"> Contact us </button></li>
                 <li><button class="orange-button"> Contribute </button></li>
             </ul>
@@ -19,44 +23,51 @@
     </div>
 
     <div class="hero-text">
-        <h1>Apples&Oranges</h1>
+        <h1> <span class="apples">Apples</span><span class="and">&</span><span class="oranges">Oranges</span></h1>
         <h2>Find value in Australian healthcare</h2>
         <H3>Shop around, review and contribute to a more transparent healthcare system</H3>
-        <div class="search-box">What are you looking for?</div>
+        <button class="search-box"> <div>What are you looking for? </div> <span class="magnifyingglass"> &#128269;</span></button>
+        <div class="downarrow"> &#8595; </div>
     </div>
 
     <div class="main-text">
-        <div class="headertext"> The what
-            <p>Apples&Oranges is a community-driven price comparison tool for Australian healthcare - the first of it’s kind. We rely on our users to let us know what they pay for healthcare at different providers across the country, and then we make this information available to everyone.</p>
-            <p>Use the search function to access the Apples&Oranges App and find out if you are overpaying for healthcare.</p>
-        </div>
-        <div class="headertext"> The why
-            <p> Everyone knows that apples and oranges can’t be compared, but healthcare should be different. Our mission is to provide Australians with the knowledge and data they need to make informed decisions about personal healthcare spending. </p>
-            <p>  When it comes to our health, the cost of products and services is deliberately obscured to keep consumers in the dark. Whether it’s your out-of-pocket expense for a general dental check-up and clean, or the cost of elective surgery, it is impossible to know if you are paying a fair price for your treatment. Specialist consultations are expensive, which makes it even harder to compare the options. </p>
-            <p>We built Apples&Oranges so that Australians can break the status quo and help each other be better informed about the cost of healthcare services. </p>
+        <div class="text">
+            <div class="headertext"> The what
+                <p>Apples&Oranges is a community-driven price comparison tool for Australian healthcare - the first of it’s kind. We rely on our users to l et us know what they pay for healthcare at different providers across the country, and then we make this information available to everyone.</p>
+                <p>Use the search function to access the Apples&Oranges App and find out if you are overpaying for healthcare.</p>
+            </div>
+            <div class="headertext"> The why
+                <p> Everyone knows that apples and oranges can’t be compared, but healthcare should be different. Our mission is to provide Australians with the knowledge and data they need to make informed decisions about personal healthcare spending. </p>
+                <p>  When it comes to our health, the cost of products and services is deliberately obscured to keep consumers in the dark. Whether it’s your out-of-pocket expense for a general dental check-up and clean, or the cost of elective surgery, it is impossible to know if you are paying a fair price for your treatment. Specialist consultations are expensive, which makes it even harder to compare the options. </p>
+                <p>We built Apples&Oranges so that Australians can break the status quo and help each other be better informed about the cost of healthcare services. </p>
+            </div>
         </div>
     </div>
 
     <div class="action-text">
         <div class="action-heading">We're just getting started.</div>
         <div class="action-body-text"> We have big plans for Australian healthcare, and this is just the beginning. Be a part of our future by contributing to our data crowdsourcing campaign, or by letting us know what features you want next.</div>
-        <div class="join"> Join the community</div>
-        <ul>
+        <div class="join"> Join the community ></div>
+        <ul class="action-buttons">
             <li><button class="green-button"> Contact us </button></li>
             <li><button class="orange-button"> Contribute </button></li>
         </ul>
     </div>
 
     <div class="footer">
-        <ul class="footer-list-left">
-            <li> App </li>
-            <li> Sign in </li>
-            <li> Contact </li>
-            <li> Contribute </li>
-        </ul>
+        <div class="left-footer-container">
+            <ul class="footer-list-left">
+                <li> Home </li>
+                <li> App </li>
+                <li> Sign in </li>
+                <li> Contact </li>
+                <li> Contribute </li>
+            </ul>
+            <div class="disclaimer"> Apples&Oranges is a user review aggregator. Unless noted, our pricing information is an estimate only based on information voluntarily provided by our users, and is not guaranteed by us nor the healthcare provider. For accurate pricing information, contact the healthcare provider directly. </div>
+        </div>
         <ul class="footer-list-right">
-            <li> Sign up to our mailing list </li>
-            <li> Your email </li>
+            <li> Sign up to our mailing list </li>   
+            <li class="email"> <span>&#x1F4E7;</span> Your email </li>
             <li> hello@applesandoranges.com.au </li>
         </ul>
     </div>
